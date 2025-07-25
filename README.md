@@ -14,23 +14,23 @@ So here are my plan for this learning project
 *May change in the future
 
 **_Phase 1 : Barebone Structure (HTML)_**
-- ☑ **HTML** | Base structure & Semantics
+- ☑ **HTML** | Base structure & Semantics<br>
     Build the form framework with semantic tags (`form`, `fieldset`, `label`, etc.).
 
 **_Phase 2 : Visual Styling (CSS)_**
-- ⬜ **CSS** | Global Styling & Variables
+- ⬜ **CSS** | Global Styling & Variables<br>
     Set up global styles and CSS variables for consistent theming.
 
-- ⬜ **CSS** | Form Container Layout
+- ⬜ **CSS** | Form Container Layout<br>
     Create a “card view” for the form so that it is centered on the page using `max-width`, `margin: auto`, and `box-shadow`.
 
-- ⬜ **CSS** | Input & Label Alignment
+- ⬜ **CSS** | Input & Label Alignment<br>
     Adjust the layout for each input group. Possibly use Flexbox to arrange labels and inputs neatly and responsively.
 
-- ⬜ **CSS** | Custom Radio Button Styling
+- ⬜ **CSS** | Custom Radio Button Styling<br>
     Hide the default radio button display and style the `label` to create a customizable, clickable star rating.
 
-- ⬜ **CSS** | Input, Textarea & Button Styling
+- ⬜ **CSS** | Input, Textarea & Button Styling<br>
     Styling `input` and `textarea`. Also, redesigning the “Submit” `button` to make it more appealing with `:hover` and `:active` state effect.
 
 ---
@@ -48,7 +48,7 @@ In this initiation session, I created the barebone of HTML structure, such as: �
 
 ### Web Page Appearances in Session 6
 
-![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe -006-feedback-form-html-structure/blob/main/images/webpage-screenshot-01.JPG)
+![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/main/images/webpage-screenshot-01.JPG)
 
 ---
 
