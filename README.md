@@ -38,7 +38,7 @@ So here are my plan for this learning project
 ## Development Log / Project Journal
 
 ### Progress Session 1 - HTML Form Basic Structure
-**Date:** 2025-07-23
+<italic>**Date:** 2025-07-23</italic>
 
 ✌ In this initiation session, I created the barebone of HTML structure, such as: ✌
 - ✍️ **Base structure of my Feedback Form web page**
@@ -53,7 +53,7 @@ So here are my plan for this learning project
 <p align="center">- - -</p>
 
 ### Progress Session 2 - HTML Basic A11y and CSS Flexbox
-**Date:** 2025-07-28
+<italic>**Date:** 2025-07-28</italic>
 
 ✌ In this session, I focused on enhancing the accessibility of the HTML form, like: ✌
 - ✍️ **Improved Accessibility Features**
@@ -67,7 +67,7 @@ Also, I applied Flexbox for layout to make the form more responsive and visually
 
 ### Web Page Appearances in Session 7
 
-![Web Page Screenshot 02](https://github.com/ElMyosotisCode/lrn-fe -006-feedback-form-html-structure/blob/main/images/webpage-screenshot-02.JPG)
+![Web Page Screenshot 02](https://github.com/ElMyosotisCode/lrn-fe-006-feedback-form-html-structure/blob/main/images/webpage-screenshot-02.JPG)
 
 <p align="center">- - -</p>
 
