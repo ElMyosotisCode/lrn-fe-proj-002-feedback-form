@@ -38,7 +38,7 @@ So here are my plan for this learning project
 ## Development Log / Project Journal
 
 ### Progress Session 1 - HTML Form Basic Structure
-**Date:** 2025-07-23
+__**Date:** 2025-07-23__
 
 In this initiation session, I created the barebone of HTML structure, such as: ✌
 - ✍️ **Base structure of my Feedback Form web page**
