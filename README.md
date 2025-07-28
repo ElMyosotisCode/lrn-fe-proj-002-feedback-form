@@ -6,9 +6,7 @@ It's me Misael Randy Limpaty (ElMyosotisCode) your future Front End Developer Ex
 This project is my second learning project, for now it's only pure HTML without internal nor inline CSS.
 
 ---
-
-
-
+<br>
 
 ## Roadmap
 
@@ -36,9 +34,7 @@ So here are my plan for this learning project
     Styling `input` and `textarea`. Also, redesigning the “Submit” `button` to make it more appealing with `:hover` and `:active` state effect.
 
 ---
-
-
-
+<br>
 
 ## Development Log / Project Journal
 
@@ -56,9 +52,7 @@ In this initiation session, I created the barebone of HTML structure, such as: �
 ![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/main/images/webpage-screenshot-01.JPG)
 
 ---
-
-
-
+<br>
 
 ## Key Learnings
 
