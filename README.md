@@ -8,6 +8,8 @@ This project is my second learning project, for now it's only pure HTML without 
 ---
 
 
+
+
 ## Roadmap
 
 So here are my plan for this learning project
@@ -35,10 +37,13 @@ So here are my plan for this learning project
 
 ---
 
+
+
+
 ## Development Log / Project Journal
 
 ### Progress Session 1 - HTML Form Basic Structure
-<i>**Date:** 2025-07-23</i>
+~~ <i>**Date:** 2025-07-23</i>
 
 In this initiation session, I created the barebone of HTML structure, such as: ✌
 - ✍️ **Base structure of my Feedback Form web page**
@@ -51,6 +56,9 @@ In this initiation session, I created the barebone of HTML structure, such as: �
 ![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/main/images/webpage-screenshot-01.JPG)
 
 ---
+
+
+
 
 ## Key Learnings
 
