@@ -48,7 +48,7 @@ So here are my plan for this learning project
 
 ### Web Page Appearances in Session 6
 
-![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe -006-feedback-form-html-structure/blob/main/images/webpage-screenshot-01.JPG)
+![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day02-form-html-a11ly-css-flexbox/images/webpage-screenshot-01.JPG)
 
 <p align="center">- - -</p>
 
@@ -67,7 +67,7 @@ Also, I applied Flexbox for layout to make the form more responsive and visually
 
 ### Web Page Appearances in Session 7
 
-![Web Page Screenshot 02](https://github.com/ElMyosotisCode/lrn-fe-006-feedback-form-html-structure/blob/main/images/webpage-screenshot-02.JPG)
+![Web Page Screenshot 02](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day02-form-html-a11ly-css-flexbox/images/webpage-screenshot-02.JPG)
 
 <p align="center">- - -</p>
 
