@@ -75,7 +75,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 1 📸
 
-![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/main/images/documentations/webpage-screenshot-01.JPG)
+![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day03-form-css-grid/images/documentations/webpage-screenshot-01.JPG)
 
 <div align=center>- - - - -</div>
 
@@ -105,7 +105,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 2 📸
 
-![Web Page Screenshot 02](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/main/images/documentations/webpage-screenshot-02.JPG)
+![Web Page Screenshot 02](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day03-form-css-grid/images/documentations/webpage-screenshot-02.JPG)
 
 <div align=center>- - - - -</div>
 
@@ -222,12 +222,23 @@ The result is a page that is functional in terms of structure, albeit without vi
     * Implementing the “Centered Container” design pattern by combining `max-width` and `margin: auto` on the Grid Container.
 
     * A very important technique for _improving readability_ and giving a more premium design feel, as the content does not spread across the entire screen on large monitors.
+ 
+* 🔸 **Visual Summary Table**
+    * As a quick reference, the following table will maps out the key concepts of CSS Grid that have been written:
 
 | Concept   | Properties for the Container                       | Properties for the Items           | Analogy                  |
 | :-------- | :------------------------------------------------- | :--------------------------------- | :----------------------- |
 | **Blueprint** | `display: grid`, `grid-template-columns`, `grid-template-rows`, `gap` | -                                  | Building a bookshelf.    |
 | **Placement** | -                                                  | `grid-column`, `grid-row`            | Put the books on shelves.|
-| **Alignment** | `justify-items`, `align-items`                     | `justify-self`, `align-
+| **Alignment** | `justify-items`, `align-items`                     | `justify-self`, `align-self`         | Straighten the books.    |
+
+<div align=center>
+    <i><b>Table Key Learnings 8.1</b> - CSS Grid Simple Concept</i>
+</div>
+
+</br>
+
+<div align=center>- - - - -</div>
 
 ---
 
