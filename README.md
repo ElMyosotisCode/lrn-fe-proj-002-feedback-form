@@ -134,7 +134,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 3 📸
 
-![Web Page Screenshot 03](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/main/images/documentations/webpage-screenshot-03.JPG)
+![Web Page Screenshot 03](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day03-form-css-grid/images/documentations/webpage-screenshot-03.JPG)
 
 ---
 
