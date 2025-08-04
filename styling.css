@@ -139,7 +139,12 @@ body {
     /* --- Box Model --- */
     max-width: 1200px;
     margin: var(--space-2xl) auto;
-    padding: var(--space-lg) 0;
+    padding: var(--space-lg);
+
+    /* --- Visual & Appearance --- */
+    background-color: var(--color-solid-white);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: var(--radius-base)
 }
 
 .illustration-image {
