@@ -75,7 +75,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 1 📸
 
-![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day03-form-css-grid/images/documentations/webpage-screenshot-01.JPG)
+![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day04-form-css-grid_responsive-design/images/documentations/webpage-screenshot-01.JPG)
 
 <div align=center>- - - - -</div>
 
@@ -105,7 +105,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 2 📸
 
-![Web Page Screenshot 02](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day03-form-css-grid/images/documentations/webpage-screenshot-02.JPG)
+![Web Page Screenshot 02](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day04-form-css-grid_responsive-design/images/documentations/webpage-screenshot-02.JPG)
 
 <div align=center>- - - - -</div>
 
@@ -134,7 +134,36 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 3 📸
 
-![Web Page Screenshot 03](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day03-form-css-grid/images/documentations/webpage-screenshot-03.JPG)
+![Web Page Screenshot 03](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day04-form-css-grid_responsive-design/images/documentations/webpage-screenshot-03.JPG)
+
+<div align=center>- - - - -</div>
+
+### Project Progress Session 4 - CSS Grid | Responsive Design
+📅 _**Date:** 2025-08-06_
+
+<br>
+
+💭 In this progress session, I evolved my static web-page into a more responsive display where I use a universal design that works on any screen sizes. Built upon the existing `CSS Grid` structure, this update introduces the **Mobile-First** methodology, _ensuring a seamless and optimal user experience across all screen sizes_, from mobile phones, small tablets to widescreen desktops.
+
+* 📌 **Mobile-First Layout Methodology**
+
+    * Refactored the `CSS` to establish a _single-column layout as the default view_. This approach _prioritizes the mobile experience_, ensuring fast load times and perfect content rendering on smaller devices.
+
+* 📌 **Adaptive Layout through `Media Queries`**
+
+    * Implemented `CSS @media queries` to introduce a multi-column layout on larger screens. The design now intelligently "jumps" from a single column to a two-column grid at a 768px breakpoint, _adapting the structure to the available screen dimensions._
+
+* 📌 **Improved Fluid-Grid Implementation**
+
+    * Enhanced the grid's column definition using the `minmax()` function (`grid-template-columns: 2fr minmax(250px, 1fr);`). Through this technique, I can ensure the illustration column never shrinks below a minimum width, while still allowing it to grow flexibly, _solving a key visual consistency challenge on mid-sized screens_.
+
+</br>
+
+### Web Page Visual in Project Progress Session 4 📸
+
+![Web Page Screenshot 04](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day04-form-css-grid_responsive-design/images/documentations/webpage-screenshot-04.JPG)
+
+<div align=center>- - - - -</div>
 
 ---
 
@@ -175,6 +204,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 ### Learning Module Session 7 ~ HTML Basic A11y and CSS Flexbox
 
 💡 Here are some key points I learned through this session:
+
 * 🔹 **CSS Architecture & Design System**
 
     * Building a **Single Source of Truth** for design values by utilizing `CSS Variables` inside `:root` segment of `CSS` file. I created a comprehensive variable system, such as:
@@ -201,7 +231,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Learning Module Session 8 ~ CSS Grid Layout
 
-💡 Here are some key points I learned through this session:
+📚 Here are some key points I learned through this session:
 
 * 🔸 **Fundamental Concepts: _Grid Container_ & _Grid Items_**
     
@@ -240,10 +270,32 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 <div align=center>- - - - -</div>
 
+### Learning Module Session 9 ~ CSS Grid Layout | Responsive Design
+
+💡 Here are some key points I learned through this session:
+
+* 🔹 **Core Philosophy: _Mobile-First Design_**
+
+    * Understand the _Mobile-First_ approach, a fundamental best practice in modern web development. This involves _writing the simplest CSS for the smallest screens first_, then _progressively adding complexity for larger screens_ using `@media queries`. This method results in lighter, faster-loading code for mobile users and a more maintainable codebase.
+
+* 🔹 **Conditional Styling with _Media Queries_**
+
+    * Learned to use `@media queries` as a conditional "gatekeeper" for CSS rules. Specifically using `min-width` to _apply styles only when the screen width exceeds a certain threshold_ (breakpoint).
+
+    * Explored creating ranged media queries (e.g., `@media (min-width: 768px)` and `(max-width: 1024px)`) to _apply styles within a specific viewport interval_, allowing for precise, surgical adjustments.
+
+* 🔹 **Grid Technique: _The `minmax()` Function_**
+
+    * Discovered the powerful `minmax(MIN, MAX)` function as _a solution for creating truly robust and fluid grid columns_.
+
+    * By defining a column with `minmax(250px, 1fr)`, I was able to _enforce a minimum width for an element while still allowing it to grow flexibly_. This technique is superior to applying `min-width` directly to a child element as it makes the grid container itself "smarter", preventing content overflow and maintaining layout integrity.
+
+<div align=center>- - - - -</div>
+
 ---
 
 <div align=right>
 
-**_Updated on : 2025, Aug. 4th_**
+**_Updated on : 2025, Aug. 6th_**
 
 </div>
