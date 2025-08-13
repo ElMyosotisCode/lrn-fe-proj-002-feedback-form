@@ -77,6 +77,7 @@ which I named it 'FoCoMUR' styling system
     --color-light-violet: rgb(207, 159, 255);
     --color-solid-black: rgb(0, 0, 0);
     --color-solid-white: rgb(255, 255, 255);
+    --color-solid-gray: rgb(160, 160, 160);
 }
 
 html {
@@ -98,38 +99,6 @@ body {
     #                   Component                        #
     # -------------------------------------------------- # */
 
-/* -# Theme & Reusable Ruleset #- */
-
-.input-group {
-    /* --- Layout & Positioning --- */
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-xs);
-
-    /* --- Box Model --- */
-    margin-bottom: var(--space-sm);
-}
-
-.rating-group {
-    /* --- Layout & Positioning --- */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: var(--space-xs);
-
-    /* --- Box Model --- */
-    margin-bottom: var(--space-sm);
-}
-
-.rating-item {
-    /* --- Layout & Positioning --- */
-    display: flex;
-    align-items: center;
-    gap:var(--space-xs);
-}
-
-/* -# Application-Specific Ruleset #- */
 .page-container {
     /* --- Layout & Positioning --- */
     display: grid;
@@ -142,6 +111,134 @@ body {
     padding: var(--space-md);
 }
 
+/* =# --- Grid 1 --- */
+
+/* ==# Grid 1 - Theme & Reusable Ruleset #- */
+.input-group {
+    /* --- Layout & Positioning --- */
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+
+    /* --- Box Model --- */
+    margin-bottom: var(--space-lg);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    /* --- Box Model --- */
+    width: 100%;
+    padding: var(--space-xs) var(--space-sm);
+    border: 1px solid var(--color-light-gray);
+    border-radius: var(--radius-sm);
+
+    /* --- Typography --- */
+    font-family: inherit; /* Inherit font style from 'body' styling */
+    font-size: var(--font-size-base);
+}
+
+.rating-group {
+    /* --- Layout & Positioning --- */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: var(--space-xs);
+
+    /* --- Box Model --- */
+    margin-bottom: var(--space-xl);
+    padding: 0;
+    border: none;
+}
+
+.rating-item {
+    /* --- Layout & Positioning --- */
+    display: flex;
+    align-items: center;
+    gap:var(--space-xs);
+}
+
+.rating-item input[type="radio"] {
+    /* --- Box Model --- */
+    position: absolute; /* Hide the radio button from flow, but keep it functional */
+    opacity: 0; /* Hide the input radio button from view */
+    width: 0; /* Remove radio button width */
+    height: 0; /* Remove radio button height */
+}
+
+.rating-item label {
+    /* --- Layout & Positioning --- */
+    display: block; /* So that padding and dimensions can be added */
+    text-align: center;
+
+    /* --- Box Model --- */
+    padding: var(--space-xs) var(--space-sm);
+    border: 1px solid var(--color-light-gray);
+    border-radius: var(--radius-base);
+    flex-grow: 1; /* So that all buttons have the same width */
+}
+
+button[type="submit"] {
+    /* --- Box Model --- */
+    width: 100%;
+    padding: var(--space-sm) var(--space-lg);
+    border: none;
+    border-radius: var(--radius-sm);
+    
+    /* --- Typography --- */
+    font-size: var(--font-size-base);
+    font-weight: bold;
+    color: var(--color-solid-white);
+    
+    /* --- Visual --- */
+    background-color: var(--color-light-blue);
+}
+
+/* ==# Grid 1 - Application-Specific Ruleset #- */
+.form-title {
+    /* --- Typography --- */
+    font-size: var(--font-size-2xl);
+    line-height: var(--line-height-tight);
+}
+
+.form-foreword {
+    /* --- Box Model --- */
+    margin-bottom: var(--space-lg);
+
+    /* --- Typography --- */
+    font-size: var(--font-size-md);
+    color: var(--color-light-violet);
+}
+
+.rating-legend {
+    /* --- Layout & Positioning --- */
+    display: block; /* So that it takes the full width */
+    margin-bottom: var(--space-xs);
+}
+
+.feedback-msg-input-group {
+    /* NOTE: Linter placeholder for future overrides. */
+    --placeholder: ;
+}
+
+.feedback-msg-label {
+    /* --- Layout & Positioning --- */
+    display: block; /* So that it takes the full width */
+
+    /* --- Box Model --- */
+    margin-bottom: var(--space-xs);
+}
+
+.feedback-msg-hint {
+    /* --- Typography --- */
+    font-size: var(--font-size-xs);
+    color: var(--color-solid-gray);
+}
+
+/* =# --- Grid 2 --- */
+
+/* ==# Grid 2 - Application-Specific Ruleset #- */
 .illustration-image {
     /* --- Box Model --- */
     width: 100%;
@@ -154,6 +251,66 @@ body {
     #                   Modifier                         #
     # -------------------------------------------------- # */
 
+/* =# Animations & Interaction #- */
+
+/* ==# Input Boxes Color Change */
+input[type="text"],
+input[type="email"],
+textarea {
+    transition: border-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--color-light-blue);
+    box-shadow: 0 0 0 3px rgba(32, 114, 202, 0.25);
+}
+
+/* ==# Rating Item Interaction FX */
+.rating-item label {
+    /* --- Interaction, Animation, & Misc --- */
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+/* NOTE: Style for labels when hovered (for better user experience) */
+.rating-item label:hover {
+    border-color: var(--color-light-violet);
+    background-color: rgba(207, 159, 255, 0.1);
+}
+
+/* NOTE: Style for the label when the radio button is selected (checked) */
+.rating-item input[type="radio"]:checked + label {
+    background-color: var(--color-light-blue);
+    border-color: var(--color-light-blue);
+    color: var(--color-solid-white);
+}
+
+/* NOTE: Style for the label when the radio button is focused (for keyboard accessibility) */
+.rating-item input[type="radio"]:focus + label {
+    border-color: var(--color-light-violet);
+    box-shadow: 0 0 0 3px rgba(207, 159, 255, 0.5);
+}
+
+/* ==# Submit Button Interaction FX */
+button[type="submit"] {
+    /* --- Interaction, Animation, & Misc --- */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--color-light-blue);
+    transform: translateY(-3px); /* Slightly lifted fx */
+}
+
+button[type="submit"]:focus {
+    outline: 2px solid var(--color-light-violet);
+    outline-offset: 2px;
+}
+
 /*  # -------------------------------------------------- #
     #                  Utilities                         #
     # -------------------------------------------------- # */
@@ -162,7 +319,7 @@ body {
     #              Responsive Media                      #
     # -------------------------------------------------- # */
 
-/* -# For 768px and up ~ for small laptop or small tablet and up #- */
+/* =# For 768px and up ~ for small laptop or small tablet and up #- */
 @media (min-width: 768px) {
 
     .page-container {

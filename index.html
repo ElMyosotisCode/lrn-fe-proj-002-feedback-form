@@ -10,7 +10,7 @@
 
     <link 
         rel="stylesheet" 
-        href="styling.css"/>
+        href="styling.css">
 </head>
 
 <body>
@@ -21,36 +21,43 @@
 
     <!-- # MAIN -->
     <div class="page-container">
-        <!-- -# 1st GRID - Form Content -->
+        <!-- =# 1st GRID - Form Content -->
         <main class="form-container">
-            <!-- --# Feedback Form -->
-            <h1>Feedback Form</h1>
-            <p>We really appreciate every feedbacks from You for the better of us!</p>
+            <!-- ==# Feedback Form -->
+            <h1 class="form-title">
+                Feedback Form
+            </h1>
+            
+            <p class="form-foreword">
+                We really appreciate every feedback from You, for the better of us!
+            </p>
 
             <form>
-                <!-- --#Name Input Group -->
+                <!-- ==#Name Input Group -->
                 <div class="input-group">
                     <label for="name">Full Name:</label>
                     <input 
                         type="text"
                         id="name"
                         name="full_name"
-                        required/>
+                        required>
                 </div>
 
-                <!-- --#Email Input Group -->
+                <!-- ==#Email Input Group -->
                 <div class="input-group">
                     <label for="email">Email Address:</label>
                     <input 
                         type="email"
                         id="email"
                         name="email_address"
-                        required/>
+                        required>
                 </div>
 
-                <!-- --#Rating Input Group with Fieldset -->
+                <!-- ==#Rating Input Group with Fieldset -->
                 <fieldset class="rating-group">
-                    <legend>How satisfied are You with our services?</legend>
+                    <legend class="rating-legend">
+                        How satisfied are You with our services?
+                    </legend>
 
                     <div class="rating-item">
                         <input
@@ -58,7 +65,7 @@
                             id="rating_1"
                             name="rating"
                             value="1"
-                            required/>
+                            required>
                         <label for="rating_1">★☆☆☆☆</label>
                     </div>
 
@@ -68,7 +75,7 @@
                             id="rating_2"
                             name="rating"
                             value="2"
-                            required/>
+                            required>
                         <label for="rating_2">★★☆☆☆</label>
                     </div>
 
@@ -78,7 +85,7 @@
                             id="rating_3"
                             name="rating"
                             value="3"
-                            required/>
+                            required>
                         <label for="rating_3">★★★☆☆</label>
                     </div>
 
@@ -88,7 +95,7 @@
                             id="rating_4"
                             name="rating"
                             value="4"
-                            required/>
+                            required>
                         <label for="rating_4">★★★★☆</label>
                     </div>
 
@@ -98,19 +105,22 @@
                             id="rating_5"
                             name="rating"
                             value="5"
-                            required/>
+                            required>
                         <label for="rating_5">★★★★★</label>
                     </div>
                 </fieldset>
 
-                <!-- --#Feedback Input Group -->
-                <div class="input-group">
-                    <label for="message">Criticism & Advices:</label>
+                <!-- ==#Feedback Input Group -->
+                <div class="feedback-msg-input-group">
+                    <label 
+                        class="feedback-msg-label"
+                        for="message">Critics & Advices:</label>
                     <p 
                         id="message-hint"
-                        class="input-hint">
+                        class="feedback-msg-hint">
                         Please provide your feedback within 200 characters.
                     </p>
+
                     <textarea
                         id="message"
                         name="feedback_message"
@@ -121,19 +131,19 @@
                         aria-describedby="message-hint"></textarea>
                 </div>
 
-                <!-- --#Submit Button -->
+                <!-- ==#Submit Button -->
                 <div>
                     <button type="submit">Send Feedback</button>
                 </div>
             </form>
         </main>
 
-        <!-- -#2nd GRID - Picture Illustration -->
+        <!-- =#2nd GRID - Picture Illustration -->
         <aside class="illustration-container">
             <img 
                 class="illustration-image"
                 src="images/assets/people-filling-out-form-illustration.jpg" 
-                alt="Illustration of a person filling out a form" />
+                alt="Illustration of a person filling out a form" >
         </aside>
     </div>
     <!-- # End of Main -->
