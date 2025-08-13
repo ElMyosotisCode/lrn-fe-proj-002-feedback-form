@@ -75,7 +75,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 1 📸
 
-<img src="https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day05_form_finalization_ui-polish/images/documentations/webpage-screenshot-01.JPG" alt="Web Page Screenshot 01" width="700">
+<img src="images/documentations/webpage-screenshot-01.JPG" alt="Web Page Screenshot 01" width="850">
 
 <div align=center>- - - - -</div>
 
@@ -105,7 +105,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 2 📸
 
-<img src="https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day05_form_finalization_ui-polish/images/documentations/webpage-screenshot-02.JPG" alt="Web Page Screenshot 02" width="700">
+<img src="images/documentations/webpage-screenshot-02.JPG" alt="Web Page Screenshot 02" width="850">
 
 <div align=center>- - - - -</div>
 
@@ -134,7 +134,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 3 📸
 
-<img src="https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day05_form_finalization_ui-polish/images/documentations/webpage-screenshot-03.JPG" alt="Web Page Screenshot 03" width="700">
+<img src="images/documentations/webpage-screenshot-03.JPG" alt="Web Page Screenshot 03" width="850">
 
 <div align=center>- - - - -</div>
 
@@ -161,7 +161,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 4 📸
 
-<img src="https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day05_form_finalization_ui-polish/images/documentations/webpage-screenshot-04.JPG" alt="Web Page Screenshot 04" width="700">
+<img src="images/documentations/webpage-screenshot-04.JPG" alt="Web Page Screenshot 04" height="850">
 
 <div align=center>- - - - -</div>
 
@@ -188,7 +188,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 5 📸
 
-<img src="https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day05_form_finalization_ui-polish/images/documentations/webpage-screenshot-05.JPG" alt="Web Page Screenshot 05" width="700">
+<img src="images/documentations/webpage-screenshot-05.JPG" alt="Web Page Screenshot 05" width="850">
 
 ---
 
