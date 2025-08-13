@@ -37,11 +37,11 @@ So here are my plans for this learning project... </br>
 
     * Create a “_card view_” for the form so that it is centered on the page using `max-width`, `margin: auto`, and `box-shadow`.
 
-* ⬜ **CSS** | Custom Radio Button Styling
+* ☑ **CSS** | Custom Radio Button Styling
 
     * Hide the default radio button display and style the `label` to create a customizable, clickable star rating.
 
-* ⬜ **CSS** | Input, Textarea & Button Styling
+* ☑ **CSS** | Input, Textarea & Button Styling
 
     * Styling `input` and `textarea`. Also, redesigning the “_Submit_” `button` to make it more appealing with `:hover` and `:active` state effect.
 
@@ -75,7 +75,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 1 📸
 
-![Web Page Screenshot 01](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day04-form-css-grid_responsive-design/images/documentations/webpage-screenshot-01.JPG)
+<img src="images/documentations/webpage-screenshot-01.JPG" alt="Web Page Screenshot 01" width="850">
 
 <div align=center>- - - - -</div>
 
@@ -105,7 +105,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 2 📸
 
-![Web Page Screenshot 02](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day04-form-css-grid_responsive-design/images/documentations/webpage-screenshot-02.JPG)
+<img src="images/documentations/webpage-screenshot-02.JPG" alt="Web Page Screenshot 02" width="850">
 
 <div align=center>- - - - -</div>
 
@@ -134,7 +134,7 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 3 📸
 
-![Web Page Screenshot 03](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day04-form-css-grid_responsive-design/images/documentations/webpage-screenshot-03.JPG)
+<img src="images/documentations/webpage-screenshot-03.JPG" alt="Web Page Screenshot 03" width="850">
 
 <div align=center>- - - - -</div>
 
@@ -161,9 +161,34 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 ### Web Page Visual in Project Progress Session 4 📸
 
-![Web Page Screenshot 04](https://github.com/ElMyosotisCode/lrn-fe-proj-002-feedback-form/blob/feature/day04-form-css-grid_responsive-design/images/documentations/webpage-screenshot-04.JPG)
+<img src="images/documentations/webpage-screenshot-04.JPG" alt="Web Page Screenshot 04" height="850">
 
 <div align=center>- - - - -</div>
+
+### Project Progress Session 5 - UI Polishing and Finalization
+📅 _**Date:** 2025-08-13_
+
+</br>
+
+💬 This session ...
+
+📍 This final session improves the project from a functional prototype to be more a polished version, production-ready web page. The focus was on elevating the user experience through UI/UX enhancements and ensuring the highest code quality.
+
+* 📌 **Enhanced Interactive Components**
+
+    * The form is now significantly more engaging. All interactive elements, including text inputs, radio buttons, and the submit button, now _provide clear visual_ feedback through `:hover`, `:focus`, and `:checked` states with smooth `CSS transitions`.
+
+* 📌 **Custom-Styled Rating System**
+
+    * Replaced the standard radio buttons with a fully custom, clickable star rating system. This not only _improves the aesthetics but also creates a more intuitive and satisfying way for users to provide feedback_.
+
+* 📌 **Professional Code Validation**
+
+    * The entire codebase has been meticulously reviewed and validated. The final HTML and CSS now fully comply with W3C standards, _ensuring maximum browser compatibility_ and professional-grade quality.
+
+### Web Page Visual in Project Progress Session 5 📸
+
+<img src="images/documentations/webpage-screenshot-05.JPG" alt="Web Page Screenshot 05" width="850">
 
 ---
 
@@ -292,10 +317,38 @@ The result is a page that is functional in terms of structure, albeit without vi
 
 <div align=center>- - - - -</div>
 
+### Learning Module Session 10 ~ UI Polishing and Finalization
+
+📚 Here are some key points I learned through this session:
+
+* 🔸 **`CSS` Pseudo-classes: The Language of User Interaction through `CSS`**
+
+    * Learned that pseudo-classes like `:hover`, `:focus`, and `:checked` are not mere decorations, they are also the _fundamental language where the web-UI communicates with the user_.
+
+        * **`...:hover`**: _Signals to the user that "Oh... The element is interactive and can be clicked"_. Implemented on the submit button and rating labels to invite interaction.
+
+        * **`...:focus`**: _Signals the user that "Oh... I am currently at this element."_ Crucial for accessibility and user orientation, this was implemented on all input fields with a subtle box-shadow to provide a clear.
+
+        * **`...:checked`**: _Signals the user that "Ah... I have selected this option, and now it's already registered on the page."_ This was the cornerstone of the custom radio button implementation, _providing persistent visual confirmation of the user's choice_.
+
+* 🔸 **`CSS`-Only Radio Button Styling and Interactivity**
+
+    * Learned the pattern for creating _custom-styled form controls with only "pure `CSS`"_ by decoupling the element's functionality from its appearance.
+
+        * **The Invisibility**: Learned _the correct way to hide the default `input[type="radio"]` while keeping it functional_. With utilizing `position: absolute` and `opacity: 0` attributes, the visibility of corresponding element can be removed, without using `display: none`, which would kill its accessibility and functionality.
+
+        * **The `CSS` Sibling Combinator (`+`)**: Understood the logic of the Adjacent Sibling Selector (`input:checked + label`). It's _a conditional rule, or more precisely it's an "**IF and ONLY IF**" situation_. Or we can say, "**IF** the input is in a `:checked` state, **THEN** (and only then) apply a specific style to its direct sibling, which is the label.
+
+* 🔸 **Web Codes Validation: A "Quality Assurance"**
+
+    * Through `HTML5` and `CSS3` codes validation, the goal of producing robust, professional, and cross-browser compatible code can be achieved.
+    
+        * **Catching Subtle Errors**: The validator helped identify and correct subtle syntax issues that are easily missed by the human eye but can have technical implications. This included fixing invalid `HTML5` / `CSS3` structures, and removing unwanted or legacy method, for bringing the code up to modern standards.
+        
 ---
 
 <div align=right>
 
-**_Updated on : 2025, Aug. 6th_**
+**_Updated on : 2025, Aug. 13th_**
 
 </div>
